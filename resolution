@@ -1,4 +1,4 @@
 sudo vi /etc/default/grub 
-找到这一行： GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
-改为： GRUB_CMDLINE_LINUX_DEFAULT="text "
+找到这一行： GRUB_CMDLINE_LINUX_DEFAULT="text"
+改为： GRUB_CMDLINE_LINUX_DEFAULT="791"
 保存后 sudo update-grub 重启即可
