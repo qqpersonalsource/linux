@@ -1,0 +1,6 @@
+vi /etc/default/locale
+将原来的配置内容修改为
+LANG=”en_US.UTF-8″
+LANGUAGE=”en_US:en”
+再在终端下运行：
+$ locale-gen -en_US:en
