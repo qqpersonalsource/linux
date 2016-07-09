@@ -1,0 +1,9 @@
+一。安装 telnet服务器
+sudo apt-get install telnetd
+
+
+二。安装 mysql 服务器
+1.sudo apt-get install mysql-server
+
+2.本地登录登录 mysql
+mysql -u root -p
